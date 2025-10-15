@@ -56,7 +56,6 @@ class ViewJson(QWidget):
 			font-weight: normal;
 			font-family: Calibri;
 			}
-
 			""")
 
 	def ask_json_file(self):
@@ -71,8 +70,6 @@ class ViewJson(QWidget):
 		self.digest_json_file(self.json_path)
 
 	def digest_json_file(self,path):
-		#print(f'eating {path}')
-
 		#-----Get and set the column-----------
 		tabs = set()
 		
@@ -139,11 +136,9 @@ class ViewJson(QWidget):
 
 					record.update(cell_data)
 					digested_data[tab_name].append(record)
-
 			self._export_to_excel(digested_data,export_path)
 		
 	def _export_to_excel(self,categorized_data, excel_file_path):
-	    
 	    # The engine='openpyxl' is the standard for modern .xlsx files
 	    writer = pd.ExcelWriter(excel_file_path, engine='openpyxl')
 	    
@@ -156,7 +151,6 @@ class ViewJson(QWidget):
 	        
 	        df = pd.DataFrame(records_list)
 	        df.to_excel(writer, sheet_name=category_name, index=False)
-	        
 	        #print(f"Wrote {len(records_list)} rows to sheet: '{category_name}'")
 
 	    writer.close()
@@ -166,7 +160,7 @@ class ViewJson(QWidget):
 		self.vbox.removeWidget(self.tabs)
 		self.tabs = None
 		self.all_tabs = {}
-		pass
+
 
 def main():
 	app = QApplication(sys.argv)
