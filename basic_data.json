@@ -1,0 +1,122 @@
+{
+	"Leo":{
+		"Basic Info":{
+			"age" : "19",
+			"major": "Biology",
+			"status": "Depressed"
+		},
+		"Academic" : {
+			"gpa" : "4.00",
+			"credit_earned" : "70",
+			"scholarships": "Yes"
+		},
+		"Contact": {
+			"email": "leo@university.edu",
+			"phone": "555-1234"
+		},
+		"Interests": {
+			"hobby_1": "Astronomy",
+			"hobby_2": "Hiking"
+		}
+	},
+	"Taylor":{
+		"Basic Info":{
+			"age" : "28",
+			"major": "Music Performance",
+			"status": "Married"
+		},
+		"Academic" : {
+			"gpa" : "3.96",
+			"credit_earned" : "132",
+			"scholarships": "No"
+		},
+		"Contact": {
+			"email": "taylor.p@studio.com",
+			"phone": "555-4321"
+		},
+		"Interests": {
+			"hobby_1": "Songwriting",
+			"hobby_2": "Cooking"
+		}
+	},
+	"Marzuz":{
+		"Basic Info":{
+			"age" : "22",
+			"major": "Computer Science",
+			"status": "In a relationship"
+		},
+		"Academic" : {
+			"gpa" : "3.78",
+			"credit_earned" : "77",
+			"scholarships": "Yes"
+		},
+		"Contact": {
+			"email": "marzuz@techmail.net",
+			"phone": "555-9876"
+		},
+		"Interests": {
+			"hobby_1": "Gaming",
+			"hobby_2": "Coding"
+		}
+	},
+	"Robber":{
+		"Basic Info":{
+			"age" : "26",
+			"major": "Art History",
+			"status": "Single"
+		},
+		"Academic" : {
+			"gpa" : "2.66",
+			"credit_earned" : "81",
+			"scholarships": "No"
+		},
+		"Contact": {
+			"email": "robber.a@gallery.org",
+			"phone": "555-6789"
+		},
+		"Interests": {
+			"hobby_1": "Painting",
+			"hobby_2": "Traveling"
+		}
+	},
+	"Amelia":{
+		"Basic Info":{
+			"age" : "20",
+			"major": "Mechanical Engineering",
+			"status": "Single"
+		},
+		"Academic" : {
+			"gpa" : "3.55",
+			"credit_earned" : "90",
+			"scholarships": "Yes"
+		},
+		"Contact": {
+			"email": "amelia.e@engine.com",
+			"phone": "555-1122"
+		},
+		"Interests": {
+			"hobby_1": "Auto Repair",
+			"hobby_2": "Reading Sci-Fi"
+		}
+	},
+	"Xavier":{
+		"Basic Info":{
+			"age" : "35",
+			"major": "Finance",
+			"status": "Married"
+		},
+		"Academic" : {
+			"gpa" : "3.80",
+			"credit_earned" : "150",
+			"scholarships": "N/A"
+		},
+		"Contact": {
+			"email": "xavier.f@corp.com",
+			"phone": "555-3344"
+		},
+		"Interests": {
+			"hobby_1": "Investing",
+			"hobby_2": "Golf"
+		}
+	}
+}
